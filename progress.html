@@ -1,0 +1,19 @@
+<head>
+	<!-- Favicon -->
+	<link href="assets/img/icon.png" rel="shortcut icon"/>
+</head>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<body onLoad="popUp()">
+<script>
+  function popUp(){
+
+    swal({
+  title: "Page Under Construction!!",
+  text: "Please come back after sometime",
+  icon: "warning",
+  button:"OK",
+}).then(function() {
+    window.location = "index.html";
+});
+  }
+</script>

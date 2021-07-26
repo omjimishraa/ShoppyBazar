@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>ShoppyBazar</title>
+   <link rel="icon" type="image/png" href="assets/img/icon.png"/>
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">  
+<link rel="stylesheet" type="text/css" href="assets/css/card.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+
+</head>
+<body>
+   <div id="top">
+      <div class="container">
+         <div class="col-md-6 offer">
+            <a href="index.html" class="btn btn-success btn-sm">
+               Welcome Guest
+            </a>
+            <a href="cart.html">Shopping Cart Total Price: Rs 2617, Total Items 2</a>
+         </div>
+         <div class="col-md-6">
+            <ul class="menu">
+               <li>
+                  <a href="progress.html">Register</a>
+               </li>
+               <li>
+                  <a href="progress.html">My Account</a>
+               </li>
+               <li>
+                  <a href="cart.html">Goto Cart</a>
+               </li>
+               <li>
+                  <a href="progress.html">Login</a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </div>
+   <div class="navbar navbar-default" id="navbar">
+       <div class="container">
+         <div class="navbar-header">
+            <a class="navbar-brand home" href="index.html">
+               <img src="assets/img/logo.png" alt="ShoppyBazar" class="hidden-xs">
+               <img src="assets/img/logo_small.png" alt="ShoppyBazar" class="visible-xs">
+            </a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
+               <span class="sr-only">Toggle Navigation</span>
+               <i class="fa fa-align-justify"></i>
+            </button>
+
+            <a href="search.html" style="color: black;"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#search">
+               <span class="sr-only"></span>
+               <i class="fa fa-search"></i>
+            </button></a>
+         </div>
+         <div class="navbar-collapse collapse" id="navigation">
+            <div class="padding-nav">
+               <ul class="nav navbar-nav navbar-left">
+                  <li>
+                     <a href="index.html">Home</a>
+                  </li>
+                  <li>
+                     <a href="product.html">Product</a>
+                  </li>
+                  <li class="active">
+                     <a href="category.html">Category</a>
+                  </li>
+                  <li>
+                     <a href="about.html">About Us</a>
+                  </li>
+                  <li>
+                     <a href="contact.html">Contact Us</a>
+                  </li>
+               </ul>
+            </div>
+            <a href="cart.html" class="btn btn-primary navbar-btn right">
+               <i class="fa fa-shopping-cart"></i>
+               <span>4 items In Cart</span>
+            </a>
+            <a href="search.html"><div class="navbar-collapse collapse right">
+               <button class="btn navbar-btn btn-primary" type="text" style="margin-top: 0;">
+                  <span class="sr-only">Toggle Search</span>
+                  <i class="fa fa-search"></i>
+               </button></a>
+            </div>
+            <div class="collapse clearfix" id="search">
+               <form class="navbar-form" action="search.html">
+                  <div class="input-group">
+                     <input type="text" name="user_query" placeholder="Search" class="form-control" required="">
+                     <span class="input-group-btn">
+                      <button type="submit" value="Search" name="search" class="btn btn-primary">
+                        <i class="fa fa-search"></i>
+                      </button>
+                     </span>
+                  </div>
+               </form>
+            </div>
+         </div>
+       </div>
+   </div>
+
+
+<!-- Product Page -->
+<div id="content">
+    <div class="container">
+        <div class="col-md-12">
+            <ul class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    Category
+                </li>
+            </ul>
+        </div>
+      <div class="row" >
+      
+      </div>
+          
+            <div class="col-sm-12">
+               <div class="box" id="details">
+               <!-- Category Section Start -->
+                   <center><h2>Categories</h2></center>
+               <!-- Category Section End -->
+                </div>
+                <!-- Start -->
+              <div id="row same-height-row category">
+                
+                <!-- Product Starts -->
+            <div class="col-md-4 col-sm-6 category">
+               <div class="product">
+                  <a href="product.html">
+                     <img src="assets/img/jacket_new.png" class="img-responsive">
+                  </a>
+                  <div class="text">
+                     <h3>
+                        <a href="product.html">Jackets</a>
+                     </h3>
+                     <p class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                     
+                  </div>
+               </div>
+            </div>
+            <!-- Product Ends -->
+            <!-- Product Starts -->
+            <div class="col-md-4 col-sm-6 category">
+               <div class="product">
+                  <a href="product.html">
+                     <img src="assets/img/popular2.png" class="img-responsive">
+                  </a>
+                  <div class="text">
+                     <h3>
+                        <a href="product.html">Watches</a>
+                     </h3>
+                     <p class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  </div>
+               </div>
+            </div>
+            <!-- Product Ends -->
+            <!-- Product Starts -->
+            <div class="col-md-4 col-sm-6 category">
+               <div class="product">
+                  <a href="product.html">
+                     <img src="assets/img/product_1_bg.jpg" class="img-responsive">
+                  </a>
+                  <div class="text">
+                     <h3>
+                        <a href="product.html">Shoes</a>
+                     </h3>
+                     <p class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  </div>
+               </div>
+            </div>
+            <!-- Product Ends -->
+            <!-- Product Starts -->
+            <div class="col-md-4 col-sm-6 category">
+               <div class="product">
+                  <a href="product.html">
+                     <img src="assets/img/coat.png" class="img-responsive">
+                  </a>
+                  <div class="text">
+                     <h3>
+                        <a href="product.html">Suits</a>
+                     </h3>
+                     <p class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  </div>
+               </div>
+            </div>
+            <!-- Product Ends -->
+            <!-- Product Starts -->
+            <div class="col-md-4 col-sm-6 category">
+               <div class="product">
+                  <a href="product.html">
+                     <img src="assets/img/product-8.jpg" class="img-responsive">
+                  </a>
+                  <div class="text">
+                     <h3>
+                        <a href="product.html">T-Shirts</a>
+                     </h3>
+                     <p class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  </div>
+               </div>
+            </div>
+            <!-- Product Ends -->
+            
+            <!-- Product Starts -->
+            <div class="col-md-4 col-sm-6 category">
+               <div class="product">
+                  <a href="product.html">
+                     <img src="assets/img/product-7.jpg" class="img-responsive">
+                  </a>
+                  <div class="text">
+                     <h3>
+                        <a href="product.html">Bags</a>
+                     </h3>
+                     <p class="">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  </div>
+               </div>
+            </div>
+            <!-- Product Ends -->
+                
+               </div>
+              </div>
+
+                 </div>
+              </div>
+            </div>
+            </div><!-- tegory Section End -->
+                   
+                
+             
+<div>
+<!-- Footer Design -->
+<div id="footer">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-3 col-md-6">
+            <h4>Pages</h4>
+            <ul>
+               <li><a href="cart.html">Shopping Cart</a></li>
+               <li><a href="contact.html">Contact Us</a></li>
+               <li><a href="product.html">Product</a></li>
+               <li><a href="progress.html">My Account</a></li>             
+            </ul>
+            <hr>
+            <h4>User Section</h4>
+            <ul>
+               <li><a href="progress.html">Login</a></li>
+               <li><a href="progress.html">Register</a></li>
+            </ul>
+            <hr class="hidden-md hidden-lg hidden-sm">
+         </div>
+         <div class="col-md-3 col-sm-6">
+            <h4>Top Product Categories</h4>
+            <ul>
+               <li><a href="product.html">Jacket</a></li>
+               <li><a href="product.html">Accessories</a></li>
+               <li><a href="product.html">Shoes</a></li>
+               <li><a href="product.html">Coats</a></li>
+               <li><a href="product.html">T-shirts</a></li>
+            </ul>
+            <hr class="hidden-md hidden-lg">
+         </div>
+         <div class="col-md-3 col-md-6">
+            <h4>Where to find us</h4>
+            <p>
+               <strong>shoppybazar.in</strong>
+               <br>Sodepur
+               <br>Kolkata
+               <br>West Bengal
+               <br>arijitsaharay07@gmail.com
+               <br>+91 7003959492
+            </p>
+            <a href="contact.html">Goto contact us page</a>
+            <hr class="hidden-md hidden-lg">
+         </div>
+         <div class="col-md-3 col-sm-6">
+            <h4>Get the news</h4>
+            <p class="text-muted">Subscribe here for getting news regarding new products</p>
+            <form>
+               <div class="input-group">
+                  <input type="text" name="email" class="form-control">
+                  <span class="input-group-btn">
+                     <input type="submit" name="" class="btn btn-default" value="Subscribe">
+                  </span>
+               </div>
+            </form>
+            <hr>
+            <h4>Stay In Touch</h4>
+            <p class="social">
+               <a href="#"><i class="fa fa-facebook"></i></a>
+               <a href="#"><i class="fa fa-twitter"></i></a>
+               <a href="#"><i class="fa fa-instagram"></i></a>
+               <a href="#"><i class="fa fa-google-plus"></i></a>
+               <a href="#"><i class="fa fa-envelope"></i></a>
+            </p>
+         </div>
+      </div>
+   </div>
+</div>
+
+<div id="copyright">
+   <div class="container">
+      <div class="col-md-6">
+         <p class="pull-left">
+            Copyright &copy; 2020 Shoppy Bazar. All Copyright Reserved | <b>Privacy Policy</b>
+         </p>
+      </div>
+      <div class="col-md-6">
+         <p class="pull-right">
+            Template By: <a href="https://www.linkedin.com/in/arijitsaharay" target="blank">Arijit Saha Ray</a>
+         </p>
+      </div>
+   </div>
+</div>
+
+<!-- Scroll to top -->
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-circle-up fa-lg"></i></button>
+<script src="assets/js/scroll.js" type="text/javascript"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
